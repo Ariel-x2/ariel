@@ -1,0 +1,28 @@
+# Diccionario de memes
+
+
+print("     ¡Bienvenido al Diccionario!")
+print("Escribe las palabras en MAYÚSCULAS.")
+print("Puedes consultar hasta 5 palabras.")
+
+
+meme_dict = {
+    "LOL": "Una respuesta a algo gracioso.",
+    "CRINGE": "Algo raro o embarazoso.",
+    "ROFL": "Una respuesta a una broma.",
+    "SHEESH": "Ligera desaprobación.",
+    "CREEPY": "Aterrador, siniestro.",
+    "AGGRO": "Ponerse agresivo o enojado.",
+    "AARON": "Soy muy bot y malo."
+}
+
+# Preguntar 5 palabras
+for i in range(5):
+    palabra = input("\nEscribe una palabra que no entiendas: ").upper()
+
+    if palabra in meme_dict:
+        print("Significado:", meme_dict[palabra])
+    else:
+        print("Lo siento, esa palabra no está en el diccionario.")
+
+print("\n¡Gracias por usar el diccionario!")
