@@ -1,2 +1,1 @@
-# ariel
-𝖌𝖌/𝕬𝖓𝖙𝖎𝖘𝖔𝖈𝖎𝖆𝖑†
+print("hola mundo")
